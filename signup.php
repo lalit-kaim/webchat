@@ -1,0 +1,14 @@
+<?php
+session_start();
+$username=$_POST['username'];
+$password=$_POST['password'];
+$password1=$_POST['password1'];
+$email=$_POST['email'];
+$_SESSION['email']=$email;
+$_SESSION['username']=$username;
+$_SESSION['password']=$password;
+if('$password'!='$password1'){
+header('location:http://localhost/login/index.html');
+}
+header('location:http://localhost/login/register.php'); 
+?>

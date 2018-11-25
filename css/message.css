@@ -1,0 +1,163 @@
+html,body
+{
+	background:#b61924;
+    margin:0px;
+}
+*
+{
+  box-sizing: border-box;
+}
+.top{
+    position: relative;
+    width: auto;
+    height: 10%;
+    box-shadow: 0px 0px 20px rgb(0,0,.7);
+    margin:0px;
+}
+.top-left{
+    padding: 5px;
+    display: flex;
+    height: auto;
+    width: 450px;
+}
+.name{
+    margin: 10px 10px;
+    padding: 5px;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+.top-right{
+    width: 10%;
+    height: 70%;
+    border: 1px solid burlywood;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    font-size: 20px;
+    color: rgb(185, 174, 174);
+    border-radius: 5px;
+    right: 3%;
+    top:8px;
+}
+.top-right:hover
+{
+    background: rgb(173, 125, 125);
+}
+a{
+    text-decoration: none;
+    color: rgb(238, 148, 12);
+    margin: 5px;
+}
+.main{
+    height: 500px;
+    width: 400px;
+    border: 1px solid black;
+    position: absolute;
+    padding: 5px;
+    margin: auto;
+    margin: 10px;
+    /* background: rgba(55, 55, 55, .2); */
+    box-shadow: 0px 0px 20px rgb(0,0,.7);
+    background: #ffd89b;
+	background: -webkit-linear-gradient(to right, #19547b, #695940);
+	background: linear-gradient(to right, #19547b, #695b44); 
+}
+.search{
+    position: absolute;
+    left: 260px;
+}
+.message{
+    position: absolute;
+    right: 260px;
+}
+.search-up{
+    /* border: 1px solid black; */
+    margin: 5px;
+    padding: 2px;
+}
+.search-up>button, .foot>button{
+    position: relative;
+    right:0px;
+    background:#397bec;
+    margin: 0px;
+    padding: .7px 12px;
+    border: none;
+    border-radius: 5px;
+    float: right;
+}
+.search-up>input,.foot>input{
+    width: 325px;
+    height: 27px;
+    border-radius: 5px;
+    border-style: none;
+    padding-left: 5px;
+}
+.friend-list{
+    height: 440px;
+    width: auto;
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid black;
+    background:#ebebeb;
+    overflow-y: scroll;
+}
+.another-user{
+    /* border: 1px solid black; */
+    padding: 5px;
+    margin: 5px;
+    display: inline;
+}
+.userid{
+    width: 50px;
+    height: 20px;
+    border-radius: 5px;
+    padding-left: 5px;
+    border-style: none;
+}
+.message-place{
+    height: 418px;
+    width: auto;
+    margin: 5px;
+    border: 1px solid black;
+    background: white;
+    overflow-y: scroll;
+    margin-bottom: 10px;
+    padding:20px;
+}
+.foot{
+    /* border: 1px solid black; */
+    margin:5px;
+    padding: 2px; 
+    position: relative;
+}
+th,tr,td{
+    padding: 5px 25px;
+    border: 1px solid black;
+}
+table{
+    border-collapse: collapse;
+    background-color: white;
+}
+#particles-js{
+    z-index:9999;
+}
+.pdiv{
+    overflow: hidden;
+    height: 520px;
+}
+.ceo,center{
+    position: absolute;
+    top:600px;
+    left:46%;
+}
+.status{
+    display: inline;
+    position: relative;
+    left:10px;
+}
+.imgstatus{
+    width:20px;
+    height:20px;
+}
