@@ -7,7 +7,7 @@ $email=$_POST['email'];
 $_SESSION['email']=$email;
 $_SESSION['username']=$username;
 $_SESSION['password']=$password;
-if('$password'!='$password1'){
+if($password!=$password1){
 header('location:http://localhost/login/index.html');
 }
 header('location:http://localhost/login/register.php'); 
